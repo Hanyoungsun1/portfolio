@@ -1,0 +1,288 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap');
+
+body{background: #000; list-style: none; text-decoration: none;
+    position: relative;}
+
+
+
+
+
+/* main */
+.main{width: 100%; height: 938px; }
+.main>h1{font-family: 'Gothic A1', sans-serif; color: #fff; 
+      font-size: 200px; font-weight: 800; 
+     position: absolute; top: 300px; left: 320px;}
+.main>p{color: #fff; font-size: 50px; position: absolute;
+        top: 500px; left: 1340px; font-weight: 900;}
+
+/* top메뉴 */
+
+.header{z-index: 1000; position: fixed; height: 100px; width: 100%;top: 0; display: none;}
+.header>.topMenu{ position: relative;
+    display: inline; }
+.header>.topMenu>.menu{position: absolute; left: 50px; top: 25px;
+        color: #fff; font-size:40px;}
+.header>.topMenu>.up{position: absolute; left: 45px; top: 80px;
+      color: #fff; font-size: 40px;}
+/*  
+.topMenu{ height: 70px; width: 100%; position: relative;
+         display: inline; }
+.topMenu>.menu{position: absolute; left: 1425px; top: 25px;
+               color: #fff; font-size:40px;}
+.topMenu>.up{position: absolute; left: 50px; top: 25px;
+             color: #fff; font-size: 40px;}*/
+
+/* submenu */
+.subMenu{top: 0;left: 0; width: 100%; height: 0%; }
+
+/* profile */
+.profile{width: 100%;height: 938px;  position: relative;}
+.profile>h2{font-size: 70px; color: #ff8a35; font-weight: 800;
+            position: absolute; top: 200px; left: 850px;}
+
+.profile>ul{color: #fff; font-size: 30px; font-weight: 600;
+            position: absolute;
+            top: 350px; left: 750px;}
+.profile>ul>li:nth-of-type(1)>span{padding-left: 160px;}
+.profile>ul>li>span{padding-left: 100px;}
+
+/* 깃허브버튼 */
+.profile>.github{font-size: 35px;  font-weight: 600;
+                 width: 160px; height: 50px; padding: 0 7px 5px 0;
+                 border: 5px solid #fff; border-radius: 30px;
+                position: absolute; top: 550px; left: 870px;}
+.profile>.github i{color: #ff8a35; font-size: 26px; padding:0 10px 0 10px;}
+.profile>.github a{text-decoration: none; color: #ff8a35;}
+
+.profile>.github:hover{background: #fff;}
+/* 깃허브버튼 */
+
+/* sub1 */
+.sub1{width: 100%;height: 938px;    position: relative;
+      background: #000;}
+
+/* 깃허브버튼 */
+.sub1>.github{font-size: 25px; 
+    width: 115px; height: 35px; padding: 0 7px 5px 0;
+    border: 3px solid #fff; border-radius: 30px;
+   position: absolute; top: 180px; right: 240px;  font-weight: 600;}
+.sub1>.github a{text-decoration: none; color: #fff;}
+.sub1>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+
+.sub1>.github:hover a{color: #ff8a35;}
+.sub1>.github:hover a i{color: #ff8a35;}
+/* 깃허브버튼 */
+
+.sub1>p img{position: absolute; top: 250px; right:240px;}
+
+.sub1>.sub2_inner{position: relative;right: 0;
+       width: 50%; height:  938px;
+    }
+
+
+.sub1>.sub1_inner>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
+            position: absolute;
+            left: 280px; top: 165px;}
+.sub1>.sub1_inner>h2:nth-child(1) span{color: #ff8a35;font-weight: 800; }
+
+.sub1>.sub1_inner>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
+             position: absolute; font-size: 60px;
+             left: 360px; top: 170px;}
+
+.sub1>.sub1_inner>ul{position: absolute; top: 450px; left: 370px;
+                     color: #fff; font-weight: 600; font-size: 20px;}
+.sub1>.sub1_inner>ul>li:nth-of-type(1) span{padding-left: 20px;}
+.sub1>.sub1_inner>ul>li:nth-of-type(2) span{padding-left: 40px;}
+
+.sub1>.sub1_inner>p{position: absolute; top: 550px; left: 350px;
+                    color: #fff; font-weight: 600; font-size: 20px;}
+
+
+
+/* sub2 */
+.sub2{width: 100%; height: 938px; position: relative;}
+
+.sub2>.sub2_title{position: relative;
+        animation: ani2 1s ease-in 0s; }
+.sub2>.sub2_title>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
+            position: absolute;
+            right: 540px; top: 150px;}
+.sub2>.sub2_title>h2:nth-child(1) span{color: #ff8a35;font-weight: 800; }
+
+.sub2>.sub2_title>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
+             position: absolute;
+             right:365px;top: 165px;}
+.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
+.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(2){font-size: 35px;padding-left: 15px;}
+.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(3){font-size: 60px;}
+
+.sub2>.sub2_inner{font-size: 20px; color: #fff;  font-weight: 600;
+    width: 100%; height: 469px;
+    position: relative; top: 469px;
+}
+.sub2>.sub2_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
+.sub2>.sub2_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
+
+.sub2>.sub2_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+.sub2>.sub2_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+
+.sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+.sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+
+/* 깃허브버튼 */
+.sub2>.sub2_inner>.github{font-size: 25px;   font-weight: 600;
+    width: 115px; height: 35px; padding: 0 7px 5px 0;
+    border: 3px solid #fff; border-radius: 30px;
+   position: absolute; top: 170px; right: 595px; }
+.sub2>.sub2_inner>.github a{text-decoration: none; color: #fff;}
+.sub2>.sub2_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+
+.sub2>.sub2_inner>.github:hover a{color: #ff8a35;}
+.sub2>.sub2_inner>.github:hover a i{color: #ff8a35;}
+/* 깃허브버튼 */
+
+
+.sub2>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
+              top: 0;}
+.sub2>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub2>.mockup>p:nth-of-type(2) img{width: 280px; height: 350px;position: absolute; top: 380px; left: 720px;}
+.sub2>.mockup>p:nth-of-type(3) img{width: 270px; height: 300px;position: absolute; top: 400px; left: 60px;}
+
+.sub2>.img{z-index: 700; position: absolute; top:200px; left: 230px;
+    width: 530px; height: 300px; border: 1px solid yellow; overflow: hidden;}
+.sub2>.img p img{ width: 800px; position: absolute; 
+           animation: locknlock 10s ease-in Infinite Alternate;}
+
+@keyframes locknlock {
+    0%{top: 0;}
+    15%{top: -500px;}
+    30%{top: -1000px;}
+    45%{top: -1500px;}
+    60%{top: -2000px;}
+    75%{top: -2500px;}
+    90%{top: -3000px;}
+    100%{top: -3400px;}
+}
+
+/* sub3 */
+.sub3{width: 100%; height: 938px; position: relative;}
+
+.sub3>.sub3_title{position: relative;
+        animation: ani2 1s ease-in 0s; }
+.sub3>.sub3_title>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
+            position: absolute;
+            right: 560px; top: 150px;}
+.sub3>.sub3_title>h2:nth-child(1) span{color: #ff8a35;font-weight: 800; }
+
+.sub3>.sub3_title>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
+    position: absolute; font-size: 60px;
+    right: 320px; top: 170px;}
+
+.sub3>.sub3_inner{font-size: 20px; color: #fff;  font-weight: 600;
+    width: 100%; height: 469px;
+    position: relative; top: 469px;
+}
+.sub3>.sub3_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
+.sub3>.sub3_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
+
+.sub3>.sub3_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+.sub3>.sub3_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+
+.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+
+/* 깃허브버튼 */
+.sub3>.sub3_inner>.github{font-size: 25px;   font-weight: 600;
+    width: 115px; height: 35px; padding: 0 7px 5px 0;
+    border: 3px solid #fff; border-radius: 30px;
+   position: absolute; top: 170px; right: 595px; }
+.sub3>.sub3_inner>.github a{text-decoration: none; color: #fff;}
+.sub3>.sub3_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+
+.sub3>.sub3_inner>.github:hover a{color: #ff8a35;}
+.sub3>.sub3_inner>.github:hover a i{color: #ff8a35;}
+/* 깃허브버튼 */
+
+
+.sub3>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
+              top: 0;}
+.sub3>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub3>.mockup>p:nth-of-type(2) img{width: 280px; height: 350px;position: absolute; top: 380px; left: 720px;}
+.sub3>.mockup>p:nth-of-type(3) img{width: 270px; height: 300px;position: absolute; top: 400px; left: 60px;}
+
+.sub3>.img{z-index: 700; position: absolute; top:200px; left: 230px;
+    width: 530px; height: 300px; border: 1px solid yellow; overflow: hidden;}
+.sub3>.img p img{ width: 800px; position: absolute; 
+           animation: sam 10s ease-in Infinite Alternate;}
+
+ @keyframes sam {
+    0%{top: 0;}
+    15%{top: -500px;}
+    30%{top: -1000px;}
+    45%{top: -1500px;}
+    60%{top: -2000px;}
+    75%{top: -2500px;}
+    90%{top: -3000px;}
+    100%{top: -3400px;}
+}          
+
+ /* sub4 */
+.sub4{width: 100%; height: 938px; position: relative;}
+
+.sub4>.sub4_title{position: relative;
+        animation: ani2 1s ease-in 0s; }
+.sub4>.sub4_title>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
+            position: absolute;
+            right: 560px; top: 150px;}
+.sub4>.sub4_title>h2:nth-child(1) span{color: #ff8a35;font-weight: 800; }
+
+.sub4>.sub4_title>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
+             position: absolute; font-size: 60px;
+             right:  330px; top: 170px;}
+
+.sub4>.sub4_inner{font-size: 20px; color: #fff;  font-weight: 600;
+    width: 100%; height: 469px;
+    position: relative; top: 469px;
+}
+.sub4>.sub4_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
+.sub4>.sub4_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
+
+.sub4>.sub4_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+.sub4>.sub4_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+
+.sub4>.sub4_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+.sub4>.sub4_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+
+/* 깃허브버튼 */
+.sub4>.sub4_inner>.github{font-size: 25px;   font-weight: 600;
+    width: 115px; height: 35px; padding: 0 7px 5px 0;
+    border: 3px solid #fff; border-radius: 30px;
+   position: absolute; top: 170px; right: 595px; }
+.sub4>.sub4_inner>.github a{text-decoration: none; color: #fff;}
+.sub4>.sub4_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+
+.sub4>.sub4_inner>.github:hover a{color: #ff8a35;}
+.sub4>.sub4_inner>.github:hover a i{color: #ff8a35;}
+/* 깃허브버튼 */
+
+
+.sub4>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
+              top: 0;}
+.sub4>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub4>.mockup>p:nth-of-type(2) img{width: 280px; height: 350px;position: absolute; top: 380px; left: 720px;}
+.sub4>.mockup>p:nth-of-type(3) img{width: 270px; height: 300px;position: absolute; top: 400px; left: 60px;}
+
+.sub4>.img{z-index: 700; position: absolute; top:200px; left: 230px;
+    width: 530px; height: 300px; border: 1px solid yellow; overflow: hidden;}
+.sub4>.img p img{ width: 800px; position: absolute; 
+           animation: locknlock 10s ease-in Infinite Alternate;}
+          
+
+
+/* footer */
+.footer{width: 100%;height: 938px;  position: relative;}
+.footer>h2{font-size:100px; color: #fff; font-weight: 800;
+     position: absolute; top: 300px; left: 650px;}
+.footer>p{font-size: 20px; color: #fff; font-weight: 600; 
+    position: absolute; top: 450px;left:720px;}
