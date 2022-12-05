@@ -5,18 +5,332 @@ body{background: #fff; list-style: none; text-decoration: none;
     position: relative;}
 
 
+.btn{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
 
+.btn{
+    background: rgba(87,117,144) ;
+  background: radial-gradient(circle,rgba(244,244,244) 0%,rgba(0,156,207,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn a{
+    position: relative;
+    display: block;
+    width: 105px;
+    height: 100%;
+    font-size: 23px; 
+    text-decoration: none;
+    padding-left: 15px;
+    color: #fff;
+  }
+  .btn i{font-size: 20px;}
 
+  .btn:before,
+  .btn:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+   box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  .btn:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  .btn:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+  }
+  .btn:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn a:before,
+  .btn a:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn a:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn a:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn:hover a{color: #009ccf;}
+  .btn a:hover:before {
+    width: 100%;
+  }
+  .btn a:hover:after {
+    width: 100%;
+  }
+  
 
 /* main */
+    @property --x0 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x0 {
+        0% {
+          --x0: 25% ;
+        }
+        100% {
+          --x0: 75% ;
+        }
+      }
+      @property --y0 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y0 {
+        0% {
+          --y0: 25% ;
+        }
+        100% {
+          --y0: 75% ;
+        }
+      }
+      @property --x1 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x1 {
+        0% {
+          --x1: 25% ;
+        }
+        100% {
+          --x1: 75% ;
+        }
+      }
+      @property --y1 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y1 {
+        0% {
+          --y1: 25% ;
+        }
+        100% {
+          --y1: 75% ;
+        }
+      }
+      @property --x2 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x2 {
+        0% {
+          --x2: 25% ;
+        }
+        100% {
+          --x2: 75% ;
+        }
+      }
+      @property --y2 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y2 {
+        0% {
+          --y2: 25% ;
+        }
+        100% {
+          --y2: 75% ;
+        }
+      }
+      @property --x3 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x3 {
+        0% {
+          --x3: 25% ;
+        }
+        100% {
+          --x3: 75% ;
+        }
+      }
+      @property --y3 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y3 {
+        0% {
+          --y3: 25% ;
+        }
+        100% {
+          --y3: 75% ;
+        }
+      }
+      @property --x4 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x4 {
+        0% {
+          --x4: 25% ;
+        }
+        100% {
+          --x4: 75% ;
+        }
+      }
+      @property --y4 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y4 {
+        0% {
+          --y4: 25% ;
+        }
+        100% {
+          --y4: 75% ;
+        }
+      }
+      @property --x5 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes x5 {
+        0% {
+          --x5: 25% ;
+        }
+        100% {
+          --x5: 75% ;
+        }
+      }
+      @property --y5 {
+        syntax: "<length-percentage>";
+        initial-value: 0%;
+        inherits: false;
+      }
+      @keyframes y5 {
+        0% {
+          --y5: 25% ;
+        }
+        100% {
+          --y5: 75% ;
+        }
+      }
+      .main {
+        height: 100%;
+        background: radial-gradient(circle at var(--x0, 96%) var(--y0, 49%), #9ee7ff, transparent 35%),
+         radial-gradient(circle at var(--x1, 19%) var(--y1, 41%), #e4dd7b, transparent 35%),
+          radial-gradient(circle at var(--x4, 46%) var(--y4, 74%), #5ecbd3, transparent 35%), 
+          radial-gradient(circle at var(--x5, 74%) var(--y5, 17%), #577590, transparent 35%) #fff;
+        background-position: 50%;
+        animation: x0 5.5s -0.55s alternate-reverse, y0 5.5s -3.3s alternate-reverse, x1 4.5s -0.495s alternate-reverse, y1 4.5s -2.745s alternate-reverse, x3 2.5s -2.325s alternate, y3 2.5s -3.575s alternate, x4 2.5s -1.35s alternate-reverse, y4 2.5s -2.6s alternate, x5 3.5s -1.365s alternate, y5 3.5s -3.115s alternate;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+
+
 .main{width: 100%; height: 938px; }
-.main>h1{font-family: 'Gothic A1', sans-serif; color: #009ccf;
-      font-size: 200px; font-weight: 800; 
-     position: absolute; top: 300px; left: 340px;}
+
 /* .main>div{border: 1px solid green; width: 1172px; height: 300px; 
          position: absolute; top: 500px; left: 340px;} */
-.main>div>p{color: #009ccf; font-size: 50px; position: absolute;
-        top: 500px; left: 1340px; font-weight: 1000;}
+
+.main>h1{position: absolute; top: 300px; left: 340px; 
+  font-size: 200px;
+  text-transform: uppercase;
+  font-family: 'Gothic A1', sans-serif; 
+  color: #009ccf;
+}
+.main>p{color: #009ccf; font-size: 50px; font-weight: 1000;font-family: 'Gothic A1', sans-serif; 
+  position: absolute;top: 520px; left: 1340px;}
+
+.main>h1>span,.main>p>span{
+  width: 1180px; height:330px;
+  color: #009ccf;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  transform: translateY(-50px);
+  opacity: 1;
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 5s;
+ animation-delay: 0s;
+}
+.main>p>span{ width: 400px; height: 300px;}
+
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+    
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    clip-path:polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+}
 
 /* top메뉴 */
 
@@ -51,154 +365,231 @@ body{background: #fff; list-style: none; text-decoration: none;
 
 /* 깃허브버튼 */
 .profile>.github{font-size: 33px;  font-weight: 600;
-                 width: 160px; height: 50px; padding: 0 7px 5px 0;
-                 background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-                position: absolute; top: 550px; left: 870px;}
-.profile>.github i{color: #009ccf; font-size: 26px; padding:0 10px 0 10px;}
+                 width: 160px; height: 50px; padding:10px 0 0 20px;
+                 position: absolute; top: 550px; left: 870px;}
+.profile>.github i{ font-size: 26px;}
 .profile>.github a{text-decoration: none; color: #fff;}
-.profile>.github:hover{ transform: scale(0.9);}
-.profile>.github:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
+.profile>.github:hover a{color: #009ccf;}
 
 /* 버튼 */
+
 
 
 /* sub1 */
-.sub1{width: 100%;height: 938px;    position: relative;
-    background: linear-gradient(to bottom, #fff 0%,#64d5fa 20%, #009ccf 50%,#64d5fa 80%, #fff 100%);}
+.sub1{width: 100%; height: 938px; position: relative;}
 
-/* 깃허브버튼 */
-.sub1>.github{font-size: 25px; 
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgba(0,156,207) 0%, 
-    rgb(255, 255, 255) 90%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(255,255,255);
-   position: absolute; top: 180px; left: 1360px;  font-weight: 600;}
-.sub1>.github a{text-decoration: none; color: #fff;}
-.sub1>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
-
-.sub1>.github:hover{ transform: scale(0.9);}
-.sub1>.github:hover a{ text-shadow: 0 0 5px rgb(0,156,207);}
-
-
-.sub1>.main{font-size: 25px;  font-weight: 600;
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgba(0,156,207) 0%, 
-    rgb(255, 255, 255) 90%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(255,255,255);
-   position: absolute; top: 180px;  left: 1217px;}
-.sub1>.main a i{color: #fff; font-size: 26px; padding:0 10px 0 10px;}
-.sub1>.main a{text-decoration: none; color: #fff; padding-left: 8px;}
-
-.sub1>.main:hover{ transform: scale(0.9);}
-.sub1>.main:hover a{ text-shadow: 0 0 5px rgb(0,156,207);}
-/* 버튼 */
-
-.sub1>p img{position: absolute; top: 250px; left: 1217px;}
-
-.sub1>.sub2_inner{position: relative;right: 0;
-       width: 50%; height:  938px;
-    }
-
-
-.sub1>.sub1_inner>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
-            position: absolute;
-            left: 280px; top: 165px;}
-.sub1>.sub1_inner>h2:nth-child(1) span{color: #657889;font-weight: 800; }
-
-.sub1>.sub1_inner>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
-             position: absolute; font-size: 60px;
-             left: 360px; top: 170px;}
-
-.sub1>.sub1_inner>ul{position: absolute; top: 450px; left: 370px;
-                     color: #fff; font-weight: 600; font-size: 20px;}
-.sub1>.sub1_inner>ul>li:nth-of-type(1) span{padding-left: 20px;}
-.sub1>.sub1_inner>ul>li:nth-of-type(2) span{padding-left: 40px;}
-
-.sub1>.sub1_inner>p{position: absolute; top: 550px; left: 350px;
-                    color: #fff; font-weight: 600; font-size: 20px;}
-
-
-
-/* sub2 */
-.sub2{width: 100%; height: 938px; position: relative;}
-
-.sub2>.sub2_title{position: relative;
-        animation: ani2 1s ease-in 0s; }
-.sub2>.sub2_title>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
-            position: absolute;
-            right: 540px; top: 150px;}
-.sub2>.sub2_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
-
-.sub2>.sub2_title>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
-             position: absolute;
-             right:365px;top: 165px;}
-.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
-.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(2){font-size: 35px;padding-left: 15px;}
-.sub2>.sub2_title>h2:nth-child(2) span:nth-of-type(3){font-size: 60px;}
-
-.sub2>.sub2_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
-    width: 100%; height: 469px;
-    position: relative; top: 469px;
+.sub1>.sub1_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
+    width: 800px; height: 700px;
+    position: relative;top: 100px; left: 1050px; 
 }
-.sub2>.sub2_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
-.sub2>.sub2_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
 
-.sub2>.sub2_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
-.sub2>.sub2_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
+            position: absolute;
+            left: 230px; top: 100px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
 
-.sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
-.sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
+             position: absolute;
+             left: 290px;top: 115px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(2){font-size: 60px;padding-left: 15px;}
 
+@keyframes ani1{
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  51% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@keyframes ani2 {
+  0% {transform-origin: left;transform: scaleX(0);}
+  50% {transform-origin: left;transform: scaleX(1);}
+  51% {transform-origin: right;}
+  100% {transform-origin: right;transform: scaleX(0);}
+}
+.sub1>.sub1_inner>ul{opacity: 0;animation: ani1 0.6s cubic-bezier(0.87, 0.02, 0, 0.97)0.5s forwards;}
+.sub1>.sub1_inner>ul::before{content: "";position: absolute;left: 0;top: 0;width: 100%; height: 100%;
+  background: rgba(255,255,255,0.7);transform: scaleX(0);
+  animation: ani2 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.5s forwards;}
+
+.sub1>.sub1_inner>ul:nth-of-type(1){position: absolute; top: 450px; left: 50px;}
+.sub1>.sub1_inner>ul:nth-of-type(2){position: absolute; top: 450px; left: 480px;}
+
+.sub1>.sub1_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+.sub1>.sub1_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+
+.sub1>.sub1_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+.sub1>.sub1_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
 
 /* 깃허브버튼 */
-.sub2>.sub2_inner>.github{font-size: 25px; 
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-    position: absolute; top: 170px; left: 1210px; font-weight: 600;}
-.sub2>.sub2_inner>.github a{text-decoration: none; color: #fff;}
-.sub2>.sub2_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+.sub1>.sub1_inner>.github{
+    position: absolute; top: 500px; left: 50px; font-weight: 600;}
 
-.sub2>.sub2_inner>.github:hover{ transform: scale(0.9);}
-.sub2>.sub2_inner>.github:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
+.sub1>.sub1_inner>.subtn{ position: absolute; top: 500px; left: 190px; }
+.sub1>.sub1_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px; 
+  font-weight: 600;}
 
-
-.sub2>.sub2_inner>.main{font-size: 25px;  font-weight: 600;
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-   position: absolute; top: 170px;  left: 1070px;}
-.sub2>.sub2_inner>.main a i{color: #fff; font-size: 26px; padding:0 10px 0 10px;}
-.sub2>.sub2_inner>.main a{text-decoration: none; color: #fff; padding-left: 8px;}
-
-.sub2>.sub2_inner>.main:hover{ transform: scale(0.9);}
-.sub2>.sub2_inner>.main:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
 /* 버튼 */
+
+.sub1>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
+              top: 0;}
+.sub1>.mockup>p img{width: 700px; height: 400px; position: absolute; top: 300px; left: 150px;}
+
+.sub1>.img>p{z-index: 700; position: absolute; top:350px; left: 241px;
+    width: 521px; height: 300px;  overflow: hidden;}
+.sub1>.img>p img{ width: 521px; position: absolute; 
+            animation: sam 3s ease-in Infinite Alternate;}
+
+ @keyframes sam {
+    0%{top: 0;}
+    100%{top: -1180px;}
+}          
+
+
+ /* sub2 */
+ .sub2{width: 100%; height: 938px; position: relative;}
+
+ .sub2>.sub2_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
+     width: 800px; height: 700px;
+     position: relative;top: 100px; left: 1050px; 
+ }
+ 
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
+             position: absolute;
+             left: 270px; top: 100px;}
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
+ 
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
+              position: absolute;
+              left: 340px;top: 115px;}
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(2) span:nth-of-type(2){font-size: 35px;padding-left: 15px;}
+ .sub2>.sub2_inner>.sub2_title>h2:nth-child(2) span:nth-of-type(3){font-size: 60px;}
+ 
+ .sub2>.sub2_inner>ul{opacity: 0;animation: ani1 0.6s cubic-bezier(0.87, 0.02, 0, 0.97)0.5s forwards;}
+.sub2>.sub2_inner>ul::before{content: "";position: absolute;left: 0;top: 0;width: 100%; height: 100%;
+  background: rgba(255,255,255,0.7);transform: scaleX(0);
+  animation: ani2 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.5s forwards;}
+
+ .sub2>.sub2_inner>ul:nth-of-type(1){position: absolute; top: 450px; left: 50px;}
+ .sub2>.sub2_inner>ul:nth-of-type(2){position: absolute; top: 450px; left: 480px;}
+ 
+ .sub2>.sub2_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+ .sub2>.sub2_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+ 
+ .sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+ .sub2>.sub2_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+ 
+ 
+ /* 깃허브버튼 */
+ .sub2>.sub2_inner>.github{position: absolute; top: 500px; left: 50px; 
+  font-weight: 600;}
+ 
+ .sub2>.sub2_inner>.subtn{
+    position: absolute; top: 500px;  left:190px;}
+ .sub2>.sub2_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px;font-weight: 600;}
+ /* 버튼 */
 
 .sub2>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
               top: 0;}
-.sub2>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub2>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}             
 .sub2>.mockup>p:nth-of-type(2) img{width: 280px; height: 350px;position: absolute; top: 380px; left: 720px;}
 .sub2>.mockup>p:nth-of-type(3) img{width: 270px; height: 300px;position: absolute; top: 400px; left: 60px;}
 
-.sub2>.img>p:nth-of-type(1){z-index: 700; position: absolute; top:200px; left: 241px;
+
+.sub2>.img>p{z-index: 700; position: absolute; top:200px; left: 241px;
     width: 521px; height: 300px; overflow: hidden;}
-.sub2>.img>p:nth-of-type(1) img{ width: 521px; position: absolute;
-            animation: locknlock 5s ease-in Infinite Alternate;}
+.sub2>.img>p img{ width: 521px; position: absolute; 
+            animation: cj 2s ease-in Infinite Alternate;}
 
 .sub2>.img>p:nth-of-type(2){z-index: 800; width: 260px; height: 330px; 
                             position: absolute; top: 390px; left: 730px; border-radius: 10px; overflow: hidden;}
 .sub2>.img>p:nth-of-type(2) img{z-index: 800; width: 260px; position: absolute;
-                               animation: lockta 5s ease-in Infinite Alternate;}
+                 animation: cj2 3s ease-in Infinite Alternate;}
 
 .sub2>.img>p:nth-of-type(3){z-index: 800; position: absolute; top: 416px; left: 133px;border-radius: 20px;
+               width: 125px; height: 266px;overflow: hidden;}
+.sub2>.img>p:nth-of-type(3) img{width:200px;position: absolute;
+                   animation: cj3 1s ease-in Infinite Alternate;}
+
+
+ @keyframes cj {
+    0%{top: 0;}
+    100%{top: -620px;}
+}          
+@keyframes cj2 {
+  0%{top: 0;}
+  100%{top: -180px;}
+}    
+@keyframes cj3 {
+  0%{top: 0;}
+  100%{top: -100px;}
+}    
+
+
+
+/* sub3 */
+.sub3{width: 100%; height: 938px; position: relative;}
+
+.sub3>.sub3_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
+    width: 800px; height: 700px;
+    position: relative;top: 100px; left: 1050px; 
+}
+
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
+            position: absolute;
+            left: 270px; top: 100px;}
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
+
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
+             position: absolute;
+             left: 340px;top: 115px;}
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(2) span:nth-of-type(2){font-size: 35px;padding-left: 15px;}
+.sub3>.sub3_inner>.sub3_title>h2:nth-child(2) span:nth-of-type(3){font-size: 60px;}
+
+.sub3>.sub3_inner>ul{opacity: 0;animation: ani1 0.6s cubic-bezier(0.87, 0.02, 0, 0.97)0.5s forwards;}
+.sub3>.sub3_inner>ul::before{content: "";position: absolute;left: 0;top: 0;width: 100%; height: 100%;
+  background: rgba(255,255,255,0.7);transform: scaleX(0);
+  animation: ani2 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.5s forwards;}
+
+.sub3>.sub3_inner>ul:nth-of-type(1){position: absolute; top: 450px; left: 50px;}
+.sub3>.sub3_inner>ul:nth-of-type(2){position: absolute; top: 450px; left: 480px;}
+
+.sub3>.sub3_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
+.sub3>.sub3_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+
+.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
+.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
+
+
+/* 깃허브버튼 */
+.sub3>.sub3_inner>.github{position: absolute; top: 500px; left: 50px; font-weight: 600;}
+
+.sub3>.sub3_inner>.subtn{position: absolute; top: 500px;  left:190px;}
+.sub3>.sub3_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px;font-weight: 600;}
+/* 버튼 */
+
+.sub3>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
+              top: 0; }
+.sub3>.mockup>p:nth-of-type(1) img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub3>.mockup>p:nth-of-type(2) img{width: 280px; height: 350px;position: absolute; top: 380px; left: 720px;}
+.sub3>.mockup>p:nth-of-type(3) img{width: 270px; height: 300px;position: absolute; top: 400px; left: 60px;}
+
+.sub3>.img>p:nth-of-type(1){z-index: 700; position: absolute; top:200px; left: 241px;
+    width: 521px; height: 300px; overflow: hidden;}
+.sub3>.img>p:nth-of-type(1) img{ width: 521px; position: absolute;
+            animation: locknlock 7s ease-in Infinite Alternate;}
+
+.sub3>.img>p:nth-of-type(2){z-index: 800; width: 260px; height: 330px; 
+                            position: absolute; top: 390px; left: 730px; border-radius: 10px; overflow: hidden;}
+.sub3>.img>p:nth-of-type(2) img{z-index: 800; width: 260px; position: absolute;
+                               animation: lockta 7s ease-in Infinite Alternate;}
+
+.sub3>.img>p:nth-of-type(3){z-index: 800; position: absolute; top: 416px; left: 133px;border-radius: 20px;
                              width: 125px; height: 266px;overflow: hidden;}
-.sub2>.img>p:nth-of-type(3) img{width:125px;position: absolute;
-                                 animation: lockph 5s ease-in Infinite Alternate;}
+.sub3>.img>p:nth-of-type(3) img{width:125px;position: absolute;
+                                 animation: lockph 7s ease-in Infinite Alternate;}
 
 @keyframes locknlock {
     0%{top: 0;}
@@ -215,145 +606,371 @@ body{background: #fff; list-style: none; text-decoration: none;
     100%{top: -1050px;}
 }
 
-/* sub3 */
-.sub3{width: 100%; height: 938px; position: relative;}
 
-.sub3>.sub3_title{position: relative;
-        animation: ani2 1s ease-in 0s; }
-.sub3>.sub3_title>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
-            position: absolute;
-            right: 560px; top: 150px;}
-.sub3>.sub3_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
-
-.sub3>.sub3_title>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
-    position: absolute; font-size: 60px;
-    right: 320px; top: 170px;}
-
-.sub3>.sub3_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
-    width: 100%; height: 469px; background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%);
-    position: relative; top: 469px;
-}
-.sub3>.sub3_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
-.sub3>.sub3_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
-
-.sub3>.sub3_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
-.sub3>.sub3_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
-
-.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
-.sub3>.sub3_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
-
+/* sub4 */
+#sub4{width: 100%;height: 938px;    position: relative;
+    }
+    /* sub4 */
+.sub4_wrap{width: 100%;height: 938px; position: relative;}
 /* 깃허브버튼 */
-.sub3>.sub3_inner>.github{font-size: 25px; 
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-    position: absolute; top: 170px; left: 1320px; font-weight: 600;}
-.sub3>.sub3_inner>.github a{text-decoration: none; color: #fff;}
-.sub3>.sub3_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
+.sub4_wrap>.sub4_inner>.github{position: absolute; top: 650px; left: 490px;  font-weight: 600;}
 
-.sub3>.sub3_inner>.github:hover{ transform: scale(0.9);}
-.sub3>.sub3_inner>.github:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
-
-
-.sub3>.sub3_inner>.main{font-size: 25px;  font-weight: 600;
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-   position: absolute; top: 170px; left: 1180px; }
-.sub3>.sub3_inner>.main a i{color: #fff; font-size: 26px; padding:0 10px 0 10px;}
-.sub3>.sub3_inner>.main a{text-decoration: none; color: #fff; padding-left: 8px;}
-
-.sub3>.sub3_inner>.main:hover{ transform: scale(0.9);}
-.sub3>.sub3_inner>.main:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
+.sub4_wrap>.sub4_inner>.subtn{ position: absolute; top:650px;  left: 310px;}
+.sub4_wrap>.sub4_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px;font-weight: 600;}
 /* 버튼 */
 
-.sub3>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
-              top: 0;}
-.sub3>.mockup>p img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+.sub4_wrap>p img{position: absolute; top: 250px; left: 1217px;}
 
-.sub3>.img>p{z-index: 700; position: absolute; top:200px; left: 241px;
-    width: 521px; height: 300px;  overflow: hidden;}
-.sub3>.img>p img{ width: 521px; position: absolute; 
-            animation: sam 2s ease-in Infinite Alternate;}
+.sub4_wrap>.sub4_inner{position: relative;right: 0;
+       width: 50%; height:  938px;
+    }
 
- @keyframes sam {
-    0%{top: 0;}
-    100%{top: -1180px;}
-}          
 
- /* sub4 */
-.sub4{width: 100%; height: 938px; position: relative;
-    background: linear-gradient(to bottom,rgba(0,156,207,0.8) 0%, 
-     rgb(255, 255, 255,0.8) 80%);}
-
-.sub4>.sub4_title{position: relative;
-        animation: ani2 1s ease-in 0s; }
-.sub4>.sub4_title>h2:nth-child(1){font-size: 60px; color: #fff;  font-weight: 800;
+.sub4_wrap>.sub4_inner>h2:nth-child(1){font-size: 60px; color: #009ccf;  font-weight: 800;
             position: absolute;
-            right: 560px; top: 150px;}
-.sub4>.sub4_title>h2:nth-child(1) span{color: #657889;font-weight: 800; }
+            left: 320px; top: 165px;}
+.sub4_wrap>.sub4_inner>h2:nth-child(1) span{color: #657889;font-weight: 800; }
 
-.sub4>.sub4_title>h2:nth-child(2){color: #fff;  font-weight: 800; line-height: 1.2;
+.sub4_wrap>.sub4_inner>h2:nth-child(2){color: #009ccf;  font-weight: 800; line-height: 1.2;
              position: absolute; font-size: 60px;
-             right:  330px; top: 170px;}
+             left: 400px; top: 170px;}
 
-.sub4>.sub4_inner{font-size: 20px; color: #009ccf;  font-weight: 600;
-    width: 100%; height: 469px;
-    position: relative; top: 469px;
-}
-.sub4>.sub4_inner>ul:nth-of-type(1){position: absolute; top: 80px; right: 510px;}
-.sub4>.sub4_inner>ul:nth-of-type(2){position: absolute; top: 80px; right: 180px;}
+.sub4>.sub4_inner>ul{opacity: 0;animation: ani1 0.6s cubic-bezier(0.87, 0.02, 0, 0.97)0.5s forwards;}
+.sub4>.sub4_inner>ul::before{content: "";position: absolute;left: 0;top: 0;width: 100%; height: 100%;
+  background: rgba(255,255,255,0.7);transform: scaleX(0);
+  animation: ani2 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.5s forwards;}
 
-.sub4>.sub4_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
-.sub4>.sub4_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
+.sub4_wrap>.sub4_inner>ul{position: absolute; top: 450px; left: 370px;
+                     color: #009ccf; font-weight: 600; font-size: 20px;}
+.sub4_wrap>.sub4_inner>ul>li:nth-of-type(1) span{padding-left: 20px;}
+.sub4_wrap>.sub4_inner>ul>li:nth-of-type(2) span{padding-left: 40px;}
 
-.sub4>.sub4_inner>ul:nth-of-type(1)>li:nth-of-type(1) span{padding-left: 20px;}
-.sub4>.sub4_inner>ul:nth-of-type(1)>li:nth-of-type(2) span{padding-left: 40px;}
-
-/* 깃허브버튼 */
-.sub4>.sub4_inner>.github{font-size: 25px; 
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-    position: absolute; top: 170px; left: 1210px; font-weight: 600;}
-.sub4>.sub4_inner>.github a{text-decoration: none; color: #fff;}
-.sub4>.sub4_inner>.github a i{color: #fff;font-size: 20px; padding:0 5px 0 10px;}
-
-.sub4>.sub4_inner>.github:hover{ transform: scale(0.9);}
-.sub4>.sub4_inner>.github:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
+.sub4_wrap>.sub4_inner>p{position: absolute; top: 550px; left: 350px;
+                    color: #009ccf; font-weight: 600; font-size: 20px;}
 
 
-.sub4>.sub4_inner>.main{font-size: 25px;  font-weight: 600;
-    width: 115px; height: 35px; padding: 0 7px 5px 0;
-    background: linear-gradient(to bottom,rgb(255, 255, 255,0.8) 0%, 
-    rgba(0,156,207,0.8) 80%); border-radius: 30px; 
-    box-shadow: 5px 5px 10px -5px inset rgba(2, 145, 192, 0.8);
-   position: absolute; top: 170px;  left: 1070px;}
-.sub4>.sub4_inner>.main a i{color: #fff; font-size: 26px; padding:0 10px 0 10px;}
-.sub4>.sub4_inner>.main a{text-decoration: none; color: #fff; padding-left: 8px;}
+        .emoji_wrap{text-align: center; margin: 80px auto 0; }
+        .emoji{position: relative; display: inline-block; width: 120px; height: 120px;
+        border-radius: 50%; margin: 15px 15px 40px;background: #ffda6a; }
+        .emoji::after{content: "Emoji";
+        position: absolute; bottom: -40px; left: calc(50% - 30px);
+        width: 60px; font-style: 18px; color: #8a8a8a;}
 
-.sub4>.sub4_inner>.main:hover{ transform: scale(0.9);}
-.sub4>.sub4_inner>.main:hover a{ text-shadow: 0 0 5px rgb(255,255,255);}
-/* 버튼 */
+        .emoji_wrap>section:nth-of-type(1){position: absolute; left: 1100px; top: 300px;}
+        .emoji_wrap>section:nth-of-type(2){position: absolute; left: 1000px; top: 500px;}
+
+       /* 1.emoji_like */
+       .emoji_like{background: #548dff;}
+       .emoji_like::after{content: 'like';}
+
+       .emoji_like .emoji_hand{position: absolute; left: 25px;bottom: 30px;
+       width: 20px; height: 40px; background: #fff; border-radius: 5px;
+       animation: hands-up 2s linear 0s infinite; }
+
+       @keyframes hands-up{
+        25%{transform: rotate(15deg);}
+        50%{transform: rotate(-15deg) translateY(-10px);}
+        75%, 100%{transform: rotate(0deg);}
+       }
 
 
-.sub4>.mockup{z-index: 800; position: absolute; width: 55%; height: 938px; 
-              top: 0;}
-.sub4>.mockup>p img{width: 700px; height: 400px; position: absolute; top: 150px; left: 150px;}
+       .emoji_like .emoji_hand::before{content: "";position: absolute; 
+       left: 25px; bottom: 5px; width: 40px; height: 10px; 
+       background: #fff; border-radius: 2px 10px 10px 2px ;
+       box-shadow: 1px -9px 0 1px #fff,2px -19px 0 2px #fff,3px -29px 0 3px #fff;}
 
-.sub4>.img>p{z-index: 700; position: absolute; top:200px; left: 241px;
-    width: 521px; height: 300px; overflow: hidden;}
-.sub4>.img>p img{ width: 521px; position: absolute; 
-            animation: cj 1.5s ease-in Infinite Alternate;}
-          
- @keyframes cj {
-    0%{top: 0;}
-    100%{top: -620px;}
-}          
+       .emoji_like .emoji_thumb{position: absolute; right: -25px; top: -25px;
+       border-bottom: 20px solid #fff; border-left: 20px solid transparent;
+      transform: rotate(5deg); transform-origin: 0 100%;
+    animation: thums-up 2s linear 0s infinite;}
+
+    @keyframes  thums-up{
+        25%{transform: rotate(20deg);}
+        50%, 100%{transform: rotate(5deg);}
+    }
+
+      .emoji_like .emoji_thumb::before{content: ''; position: absolute;
+      left: -9.7px;top: -9px; width: 10px; height: 12px; background: #fff;
+      border-radius: 50% 50% 0 0; box-shadow: -1px 4px 0 -1px #fff;
+      transform: rotate(-14deg);transform-origin: 100% 100%;}
+
+
+
+
+    /* 2.emoji_love */
+    .emoji_love{background: #f55064;}
+    .emoji_love::after{content: "love";}
+
+    .emoji_love .emoji_heart{position: absolute; left: 50%; top: 50%;
+    margin-left: -40px; margin-top: -40px; 
+    width: 80px; height: 80px; /*border: 1px solid #000;*/
+    animation: heart-beat 1s linear infinite alternate;}
+
+    @keyframes heart-beat{
+        25%{transform: scale(1.1);}
+        75%{transform: scale(0.6);}
+    }
+
+    .emoji_heart::before,.emoji_heart::after{content: '';
+    position: absolute; left: 50%; top: 50%;
+    width: 40px; height: 64px; margin-left: -20px; margin-top: -32px;
+    background: #fff;border-radius: 20px 20px 0 0; }
+
+    .emoji_heart::before{transform-origin: 0 100%;
+                         transform: translateX(20px) rotate(-45deg);}
+    .emoji_heart::after{transform-origin: 100% 100%;
+                        transform: translateX(-20px) rotate(45deg);}
+
+
+    /* 3.emoji_hahaha */
+    .emoji_haha::after{content: "Haha";}
+    .emoji_haha .emoji_face{position: absolute; width: 100%; height: inherit;
+                           animation:haha-face 2s linear infinite normal ;}
+
+    @keyframes haha-face{
+        10%{transform: translateY(25px);}
+        20%{transform: translateY(15px);}
+
+        30%{transform: translateY(25px);}
+        40%{transform: translateY(15px);}
+
+        50%{transform: translateY(25px);}
+
+        60%{transform: translateY(0);}
+        70%{transform: translateY(-10px);}
+
+        80%{transform: translateY(0);}
+        90%{transform: translateY(-10px);}
+    }
+
+    .emoji_haha .emoji_eyes{position: absolute; left: 50%; top: 35px; margin-left: -13px;
+                            width: 26px; height: 6px; border-radius: 2px ; /*background: #fff;*/
+                            box-shadow: -25px 5px 0 0 #000,25px -5px 0 0 #000;
+                            transform: rotate(20deg);} 
+    .emoji_haha .emoji_eyes::after{content: ""; position: absolute; left: 0; top: 0;
+                                   width: 26px; height: 6px; border-radius: 2px;/* background: red;*/
+                                  box-shadow: -25px -5px 0 0 #000,25px 5px 0 0 #000;
+                                 transform: rotate(-40deg);}
+    .emoji_haha .emoji_mouth{overflow: hidden; position: absolute; left: 50%; top: 50%;
+                             width: 80px; height: 40px; margin-left: -40px; background: #000; 
+                            border-radius: 0 0 40px 40px ;
+                        animation: haha-mouth 2s linear infinite normal;}
+
+    @keyframes haha-mouth{
+        10%{transform: scale(0.6); top: 45%;}
+        20%{transform: scale(0.8); top: 45%;}
+
+        30%{transform: scale(0.6); top: 45%;}
+        40%{transform: scale(0.8); top: 45%;}
+
+        50%{transform: scale(0.6); top: 45%;}
+
+        60%{transform: scale(1); top: 50%;}
+        70%{transform: scale(1.2); top: 50%;}
+
+        80%{transform: scale(1); top: 50%;}
+        90%{transform: scale(1.1); top: 50%;}
+    }
+
+    .emoji_haha .emoji_tongue{position: absolute; left: 50%; bottom: -10px;
+                            width: 70px; height: 30px; margin-left: -35px; background: #f55064;
+                            border-radius: 50%;}
+
+    /* 4.emoji_yay */
+    .emoji_yay::after{content: "Yay";}
+    .emoji_yay .emoji_face{position: absolute; width: 100%; height: inherit;
+    animation: yay 1s linear infinite alternate;}
+
+    @keyframes yay{
+        25%{transform: rotate(-15deg);}
+        75%{transform: rotate(15deg);}
+    }
+
+    .emoji_yay .emoji_eyebrows{position: absolute;
+     left: calc(50% - 3px); top: 30px; width: 6px; height: 6px; border-radius: 50%;
+    /*background: #fff;*/
+     box-shadow: -6px 0 0 0 #000,-36px 0 0 0 #000000,6px 0 0 0 #000,36px 0 0 0 #000;}
+
+     .emoji_yay .emoji_eyebrows::before, .emoji_yay .emoji_eyebrows::after{content: ""; 
+     position: absolute; left: calc(50% - 18px); bottom: 3px;
+     width: 36px; height: 18px; 
+    border-radius: 60px 60px 0 0;
+    border: 6px solid black ; border-bottom: 0; box-sizing: border-box;}
+    /* border,padding 값이 실제크기 포함 안됨. */
+
+    .emoji_yay .emoji_eyebrows::before{margin-left: -21px;}
+    .emoji_yay .emoji_eyebrows::after{margin-left: 21px;}
+    .emoji_yay .emoji_mouth{position: absolute; left: calc(50% - 3px) ; top: 60px;
+    width: 6px; height: 6px; border-radius: 50% ;/* background: red;*/
+    box-shadow: -25px 0 0 0 #000, 25px 0 0 0 #000,
+    -35px -2px 30px 10px #D5234C,35px -2px 30px 10px #D5234C;}
+
+    .emoji_yay .emoji_mouth:after{content: '';
+    position: absolute;left: calc(50% - 40px); top: -64px;
+    width: 80px; height: 80px; border-radius: 50%;
+    border: 6px solid #000; box-sizing: border-box;
+    border-top-color: transparent;
+   border-right-color: transparent;
+    border-left-color: transparent;}
+
+    /* 5.emoji_wow */
+    .emoji_wow::after{content: 'wow';}
+    .emoji_wow .emoji_face{position: absolute; width: 100%; height: inherit;
+    animation: wow-face 3s linear infinite ;}
+
+    @keyframes wow-face{
+        15%,25%{transform: rotate(20deg) translateX(-25px);}
+        45%,65%{transform: rotate(-20deg) translateX(25px);}
+        75%,100%{transform: rotate(0deg) translateX(0px);}
+    }
+
+    .emoji_wow .emoji_eyebrows{position: absolute; left: calc(50% - 3px);
+     width: 6px; height: 6px; border-radius: 50% ; /*background: #fff;*/
+      box-shadow: -18px 0 0 0 #000,-33px 0 0 0 #000,
+     18px 0 0 0 #000,33px 0 0 0 #000; 
+    animation: wow-brow 3s linear 0s infinite ;}
+
+    @keyframes wow-brow{
+        15%,65%{top: 25px;}
+        75%,100%,0%{top: 15px;}
+    }
+
+    .emoji_wow .emoji_eyebrows::before,.emoji_wow .emoji_eyebrows::after{content: '';
+    position: absolute; left: calc(50% - 12px); top: -3px;
+    width: 24px;  height: 20px; border-radius: 50%;
+    border: 6px solid #000; box-sizing: border-box;
+    border-right-color:transparent ;
+    border-bottom-color: transparent;
+    border-left-color: transparent;}
+    .emoji_wow .emoji_eyebrows::before{margin-left: -25px;}
+    .emoji_wow .emoji_eyebrows::after{margin-left: 25px;}
+
+    .emoji_wow .emoji_eyes{position: absolute; left: calc(50% - 8px); top: 35px;
+     width: 16px; height: 24px; border-radius: 50%; /* background: red;*/
+     box-shadow: 25px 0 0 0 #000,-25px 0 0 0 #000;}
+
+    .emoji_wow .emoji_tongue{position: absolute; left: calc(50% - 15px); top: 50%;
+     width: 30px; height: 45px; border-radius: 50% ; background: #000;
+     animation: wow-mouth 3s linear 0s infinite;}
+
+     @keyframes wow-mouth{
+        10%,30%{width: 20px; height: 20px; left: calc(50% - 10px);}
+        50%,70%{width: 30px; height: 40px; left: calc(50% - 15px);}
+        75%,100%{height: 50px;}
+     }
+
+
+     /* 6.emoji-sad */
+
+    .emoji_sad::after{content: 'sad';}
+    .emoji_sad .emoji_face{position: absolute; width: 100%; height: inherit;
+    animation: sad-face 2s ease-in 0s infinite;}
+    
+    @keyframes sad-face{
+        25%,35%{top: -15px;}
+        55%,95%{top: 10px;}
+        100%,0%{top: 0;}
+    }
+
+    .emoji_sad .emoji_eyebrows{position: absolute;
+     left: calc(50% - 3px); top: 35px; width: 6px; height: 6px; border-radius: 50%;
+     /* background: #fff;  */
+    box-shadow: -40px 9px 0 0 #000,-25px 0 0 0 #000,
+                25px 0 0 0 #000, 40px 9px 0 0 #000;}
+
+    .emoji_sad .emoji_eyebrows::before,.emoji_sad .emoji_eyebrows::after{content: '';
+    position: absolute; left: calc(50% - 15px); top: 2px; border-radius: 50%;
+    width: 30px; height: 20px; border: 6px solid #000; box-sizing: border-box;
+    border-left-color:transparent ;
+    border-right-color: transparent;
+    border-bottom-color: transparent;}
+    .emoji_sad .emoji_eyebrows::before{margin-left: -30px; transform: rotate(-30deg);}
+    .emoji_sad .emoji_eyebrows::after{margin-left: 30px; transform: rotate(30deg);}
+
+    .emoji_sad .emoji_eyes{position: absolute; left: calc(50% - 7px); top: 50px;
+    width: 14px; height: 16px; border-radius: 50%;
+   /* background: red; */box-shadow: 25px 0 0 0 #000,-25px 0 0 0 #000;}
+    .emoji_sad .emoji_eyes::after{content: '';position: absolute;
+    width: 12px; height: 12px; margin-left: 6px; background: #548dff;
+    border-radius: 0 100% 40% 50% / 0 50% 40% 100%;
+    animation: tear-drop 2s ease-in infinite;}
+  /*   border-radius:top-left-x   top-right-x  bottom-right-x  bottom-left-x /
+                  top-left-y   top-right-y  bottom-right-y  bottom-left-y */
+
+    @keyframes tear-drop{
+        0%,100%{display: block ; left: 35px; top: 15px;
+        transform: rotate(45deg) scale(0);}
+        25%{display: block ; left: 35px; 
+        transform: rotate(45deg) scale(2);}
+        49.9%{display: block ; left: 35px; top: 65px;
+        transform: rotate(45deg) scale(0);}
+
+        50%{display: block ; left: -35px; top: 15px;
+        transform: rotate(45deg) scale(0);}
+        75%{display: block ; left: -35px; top: 15px;
+        transform: rotate(45deg) scale(2);}
+        99.9%{display: block ; left:-35px; top: 65px;
+        transform: rotate(45deg) scale(0);}
+    }
+
+    .emoji_sad .emoji_mouth{position: absolute;
+    left: calc(50% - 3px); top: 90px; width: 6px; height: 6px;
+   /* background: blue; */border-radius: 50%;
+    box-shadow: -18px 0 0 0 #000,18px 0 0 0 #000;}
+    .emoji_sad .emoji_mouth::after{content: ''; position: absolute;
+    left: calc(50% - 30px); top: -10px; width: 60px; height: 80px;
+    box-sizing: border-box; border: 6px solid #000;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color:transparent;
+    border-left-color: transparent; }
+
+
+    /* 7.emoji_angry */
+    .emoji_angry::after{content: 'angry';}
+    .emoji_angry{background: linear-gradient(to bottom, #D5234C -10%, #FFDA6A 100%);
+    background-size: 100%;}
+    .emoji_angry .emoji_face{position: absolute;width: 100%; height: inherit;
+    animation: angry-face 2s ease-in 0s infinite;}
+
+    @keyframes angry-face{
+        35%,60%{transform: translateX(0) translateY(10px) scale(0.9);}
+
+        40%{transform: translateX(-5px) translateY(10px) scale(0.9);}
+        45%{transform: translateX(5px) translateY(10px) scale(0.9);}
+
+        50%{transform: translateX(-5px) translateY(10px) scale(0.9);}
+        55%{transform: translateX(5px) translateY(10px) scale(0.9);}
+    }
+
+    .emoji_angry .emoji_eyebrows{position: absolute; left: calc(50% - 3px); top: 55px;
+        width: 6px; height: 6px; border-radius: 50%;
+   /* background: #fff;*/
+    box-shadow: -44px 5px 0 0 #000000,-7px 16px 0 0 #000000,
+     7px 16px 0 0 #000000,44px 5px 0 0 #000000;}
+
+     .emoji_angry .emoji_eyebrows::before, .emoji_angry .emoji_eyebrows::after{content: '';
+    position: absolute; left: calc(50% - 25px); top: 0;
+    width: 50px; height: 20px;
+    border: 6px solid #000000; border-radius: 50%;
+    box-sizing: border-box;
+    border-top-color:transparent ;
+    border-right-color: transparent;
+    border-left-color: transparent;}
+    .emoji_angry .emoji_eyebrows::before{margin-left: -25px; transform: rotate(15deg);}
+    .emoji_angry .emoji_eyebrows::after{margin-left: 25px; transform: rotate(-15deg);}
+    .emoji_angry .emoji_eyes{position: absolute; left: calc(50% - 6px);top: 70px;
+        width: 12px; height: 12px; border-radius: 50%;
+   /* background: blue;*/
+    box-shadow: 25px 0 0 0 #000000,-25px 0 0 0 #000000;}
+    .emoji_angry .emoji_mouth{position: absolute; left: calc(50% - 18px); bottom: 15px;
+    width: 36px; height: 18px; background: #000; border-radius: 50%;
+    animation: angry-mouth 2s ease-in 0s infinite;}
+
+    @keyframes angry-mouth{
+        25%,50%{height: 6px; bottom: 25px;}
+    }
+    
 
 
 /* footer */
