@@ -15,17 +15,7 @@ body{ list-style: none; text-decoration: none;
         50%{background-position:100% 19%}
         100%{background-position:0% 82%}
     }
-    .mockup{ 
-      background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-      background-size: 1800% 1800%;
-      
-        animation: rainbow 20s ease infinite;}
-      
-      @keyframes rainbow { 
-          0%{background-position:0% 82%}
-          50%{background-position:100% 19%}
-          100%{background-position:0% 82%}
-      }
+   
 
 /* btn */
 .btn{
@@ -141,13 +131,14 @@ body{ list-style: none; text-decoration: none;
 /* .main>div{border: 1px solid green; width: 1172px; height: 300px; 
          position: absolute; top: 500px; left: 340px;} */
 
-.main>h1{position: absolute; top: 280px; left: 300px; 
+.main>h1{position: absolute; top: 280px; left: 260px; 
   font-size: 200px;
   text-transform: uppercase;
   color: #000;
+  font-weight: bold;
 }
-.main>p{color: #000; font-size: 50px; font-weight: 1000;
-  position: absolute;top: 520px; left: 450px;}
+.main>p{color: #000; font-size: 50px; font-weight: bold;
+  position: absolute;top: 520px; left: 480px;}
 
 .main>h1>span,.main>p>span{
   width: 1180px; height:330px;
@@ -198,16 +189,18 @@ body{ list-style: none; text-decoration: none;
 
 .profile>ul{color: #000; font-size: 30px; font-weight: 600;
             position: absolute;
-            top: 350px; left: 1000px;}
-.profile>ul>li{padding-bottom: 10px;}
-.profile>ul>li:nth-of-type(1)>span{padding-left: 100px;}
+            top: 280px; left: 1000px;}
+.profile>ul>li{padding-bottom: 5px;}
+.profile>ul>li:nth-of-type(1){padding-bottom: 40px; font-size: 40px;}
+.profile>ul>li:nth-of-type(3){padding-bottom: 40px;}
+
 .profile>ul>li>span{padding-left: 60px;}
-.profile>ul>li>span:nth-of-type(2){padding-left: 190px;}
+.profile>ul>li:nth-of-type(5)>span{padding-left: 80px;}
 
 /* 깃허브버튼 */
 .profile>.github{font-size: 33px;  font-weight: 600;
                  width: 160px; height: 50px; padding:10px 0 0 20px;
-                 position: absolute; top: 580px; left: 1000px;}
+                 position: absolute; top: 640px; left: 1000px;}
 .profile>.github i{ font-size: 26px;}
 .profile>.github a{text-decoration: none; color: #fff;}
 .profile>.github:hover a{color: #000;}
@@ -238,14 +231,15 @@ body{ list-style: none; text-decoration: none;
 
 .sub1>.sub1_inner>.sub1_title>h2:nth-child(1){font-size: 60px; color:#000;  font-weight: 800;
             position: absolute;
-            left: 230px; top: 70px;}
+            left: 270px; top: 90px;}
 .sub1>.sub1_inner>.sub1_title>h2:nth-child(1) span{color: #000;font-weight: 800; }
 
 .sub1>.sub1_inner>.sub1_title>h2:nth-child(2){color: #000;  font-weight: 800; line-height: 1.2;
              position: absolute;
-             left: 290px;top: 85px;}
+             left: 340px;top: 105px;}
 .sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(1){font-size: 35px;padding: 0 0 0 25px; }
-.sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(2){font-size: 60px;padding-left: 15px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(2){font-size: 35px;padding-left: 15px;}
+.sub1>.sub1_inner>.sub1_title>h2:nth-child(2) span:nth-of-type(3){font-size: 59px;}
 
 
 .sub1>.sub1_inner>ul{opacity: 0;animation: ani1 0.6s cubic-bezier(0.87, 0.02, 0, 0.97)0.5s forwards;}
@@ -253,8 +247,8 @@ body{ list-style: none; text-decoration: none;
   background: rgba(255,255,255,0.7);transform: scaleX(0);
   animation: ani2 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.5s forwards;}
 
-.sub1>.sub1_inner>ul:nth-of-type(1){position: absolute; top: 270px; left: 300px;}
-.sub1>.sub1_inner>ul:nth-of-type(2){position: absolute; top: 330px; left: 270px;}
+.sub1>.sub1_inner>ul:nth-of-type(1){position: absolute; top: 440px; left: 50px;}
+.sub1>.sub1_inner>ul:nth-of-type(2){position: absolute; top: 440px; left: 400px;}
 
 .sub1>.sub1_inner>ul:nth-of-type(1)>li{padding-bottom: 5px;}
 .sub1>.sub1_inner>ul:nth-of-type(2)>li{padding-bottom: 30px;}
@@ -264,38 +258,38 @@ body{ list-style: none; text-decoration: none;
 
 /* 깃허브버튼 */
 .sub1>.sub1_inner>.github{
-    position: absolute; top: 510px; left: 280px; font-weight: 600;}
+    position: absolute; top: 490px; left: 50px; font-weight: 600;}
 
-.sub1>.sub1_inner>.subtn{ position: absolute; top: 510px; left: 420px; }
+.sub1>.sub1_inner>.subtn{ position: absolute; top: 490px; left: 190px;  }
 .sub1>.sub1_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px; 
   font-weight: 600;}
 
-.sub1>.sub1_inner>.subtn:nth-of-type(3){ position: absolute; top: 570px; left: 280px; }
-.sub1>.sub1_inner>.subtn:nth-of-type(4){ position: absolute; top: 570px; left: 420px; }
+.sub1>.sub1_inner>.subtn:nth-of-type(3){ position: absolute; top: 550px; left: 50px; }
+.sub1>.sub1_inner>.subtn:nth-of-type(4){ position: absolute; top: 550px; left: 190px; }
 /* 버튼 */
 
 
 .sub1>.sub_inner2{z-index: 800; position: absolute; width: 50%; height: 938px; 
               top: 0;}
 .sub1>.sub_inner2>.mockup{position: absolute;top: 130px;left: 140px; width: 810px; height: 700px; }
-.sub1>.sub_inner2>.mockup>p img{width: 700px; height: 400px; position: absolute; top: 70px; left: 50px;}
+.sub1>.sub_inner2>.mockup>p img{width: 700px; height: 400px; position: absolute; top: 50px; left: 50px;}
 .sub1>.sub_inner2>.mockup>p:nth-of-type(2) img{z-index: 800; width: 400px; height: 250px;
-  position: absolute; top: 360px; left: 520px;}
+  position: absolute; top: 380px; left: 470px;}
 .sub1>.sub_inner2>.mockup>p:nth-of-type(3) img{z-index: 800; width: 400px; height: 250px;
-  position: absolute; top: 360px; left: -100px;}
+  position: absolute; top: 380px; left: -50px;}
 
-.sub1>.sub_inner2>.img>p{z-index: 700; position: absolute; top:255px; left: 280px;
+.sub1>.sub_inner2>.img>p{z-index: 700; position: absolute; top:235px; left: 280px;
     width: 521px; height: 300px;  overflow: hidden;}
 .sub1>.sub_inner2>.img>p img{ width: 521px; position: absolute; 
             animation: sam 7s ease-in Infinite Alternate;}
 
 .sub1>.sub_inner2>.img>p:nth-of-type(2){z-index: 900; width: 295px; height: 183px; 
-                            position: absolute; top: 523px; left: 712px; overflow: hidden;}
+                            position: absolute; top: 543px; left: 663px; overflow: hidden;}
 .sub1>.sub_inner2>.img>p:nth-of-type(2) img{z-index: 800; width: 295px;  position: absolute;
                  animation: sam2 3s ease-in Infinite Alternate;}
 
 .sub1>.sub_inner2>.img>p:nth-of-type(3){z-index: 900; width: 295px; height: 183px; 
-                            position: absolute; top: 523px; left: 92px; overflow: hidden;}
+                            position: absolute; top: 543px; left: 143px; overflow: hidden;}
 .sub1>.sub_inner2>.img>p:nth-of-type(3) img{z-index: 800; width: 295px;  position: absolute;
                  animation: sam3 3s ease-in Infinite Alternate;}
 
@@ -385,7 +379,7 @@ width: 521px; height: 300px;  overflow: hidden;}
 .sub2>.sub_inner2>.img>p:nth-of-type(3){z-index: 900; position: absolute; top: 417px; left: 192px;border-radius: 20px;
                width: 125px; height: 266px;overflow: hidden;}
 .sub2>.sub_inner2>.img>p:nth-of-type(3) img{width:200px;position: absolute;
-                   animation: cj3 1s ease-in Infinite Alternate;}
+                   animation: cj3 2s ease-in Infinite Alternate;}
 
 
  @keyframes cj {
@@ -493,7 +487,7 @@ width: 521px; height: 300px;  overflow: hidden;}
     /* sub4 */
 .sub4_wrap{width: 100%;height: 938px; position: relative;}
 /* 깃허브버튼 */
-.sub4_wrap>.sub4_inner>.github{position: absolute; top:500px; left: 260px;  font-weight: 600;}
+.sub4_wrap>.sub4_inner>.github{position: absolute; top:500px; left: 320px;  font-weight: 600;}
 
 .sub4_wrap>.sub4_inner>.subtn{ position: absolute; top:500px;  left: 400px;}
 .sub4_wrap>.sub4_inner>.subtn a{font-size: 25px;padding-left: 20px;width: 100px;font-weight: 600;}
@@ -531,7 +525,7 @@ width: 521px; height: 300px;  overflow: hidden;}
         border-radius: 50%; margin: 15px 15px 40px;background: #ffda6a; }
         .emoji::after{content: "Emoji";
         position: absolute; bottom: -40px; left: calc(50% - 30px);
-        width: 60px; font-style: 18px; color: #8a8a8a;}
+        width: 60px; font-style: 18px; color: #fff;}
 
         .emoji_wrap>section:nth-of-type(1){position: absolute; left: 1200px; top: 300px;}
         .emoji_wrap>section:nth-of-type(2){position: absolute; left: 1100px; top: 500px;}
@@ -851,17 +845,73 @@ width: 521px; height: 300px;  overflow: hidden;}
 
 
 /* footer */
-#wrap>.footer{width: 100%;height: 938px;  position: relative;}
+#wrap>.footer{width: 100%;height: 938px;  position: relative; overflow: hidden;}
 #wrap>.footer>section{width: 100%;height: 938px; position: absolute;}
 
-#wrap>.footer>section>h2{font-size:100px; color: #000; font-weight: 800;
-     position: absolute; top: 300px; left: 650px; opacity: 0;
+#wrap>.footer>section>h2{font-size:80px; color: #000; font-weight: 800;
+     position: absolute; top: 250px; left: 950px; opacity: 0;
     transform: translateY(100px); transition: all 2.0s ease 0.5s;}
 
-#wrap>.footer>section>p{font-size: 20px; color: #657889; font-weight: 600; 
-    position: absolute; top: 450px;left:720px; opacity: 0;
+#wrap>.footer>section>p{font-size: 20px; color: #fff; font-weight: 600; 
+    position: absolute; top: 410px;left:970px; opacity: 0;
     transform: translateY(100px); transition: all 2.5s ease 0.5s;}
+#wrap>.footer>section>p:nth-of-type(1){transform:none;transition:none; position: absolute; 
+  top: 150px; left: 400px; opacity: 1;}
+  #wrap>.footer>section>p:nth-of-type(1) img{ width: 500px; height: 500px;}
+
+#wrap>.footer>section>p:nth-of-type(3){position: absolute; top: 440px;left:970px;}
+#wrap>.footer>section>p:nth-of-type(4){ position: absolute; top: 500px;left:970px;}
 
 
-#wrap>.footer>section.on>h2{opacity: 1; transform: translateY(0);}
-#wrap>.footer>section.on>p{opacity: 1; transform: translateY(0); }
+#wrap>.footer:hover>section>h2{opacity: 1; transform: translateY(0);}
+#wrap>.footer:hover>section>p{opacity: 1; transform: translateY(0); }
+
+
+.circle {
+  position:absolute;
+  left: 900px;
+  top: 350px;
+  z-index: 0;
+  display: flex;
+  min-height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.pulse {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 200px;
+}
+.pulse circle {
+  fill: #fff;
+  transform: scale(0);
+  opacity: 0;
+  transform-origin: 50% 50%;
+          animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1) infinite;
+          animation-delay: 1s;
+}
+.pulse circle:nth-child(2) {
+  fill: #fff;
+          animation: pulse 2s 0.75s cubic-bezier(0.5, 0.5, 0, 1) infinite;
+          animation-delay: 2s;
+}
+.pulse circle:nth-child(3) {
+  fill: #fff;
+          animation: pulse 2s 1.5s cubic-bezier(0.5, 0.5, 0, 1) infinite;
+          animation-delay: 2s;
+}
+
+
+@keyframes pulse {
+  25% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#wrap>.footer:hover>.circle{opacity: 0;}
